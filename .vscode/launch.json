@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PelamdomicNumber",
+            "request": "launch",
+            "mainClass": "PelamdomicNumber",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
