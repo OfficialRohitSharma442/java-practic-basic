@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HollowButterfly",
+            "request": "launch",
+            "mainClass": "HollowButterfly",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Diamond_pettron",
+            "request": "launch",
+            "mainClass": "Diamond_pettron",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch PelamdomicNumber",
             "request": "launch",
             "mainClass": "PelamdomicNumber",
