@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InvertHalfPeramid",
+            "request": "launch",
+            "mainClass": "InvertHalfPeramid",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPeramid",
+            "request": "launch",
+            "mainClass": "HalfPeramid",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRainbows",
+            "request": "launch",
+            "mainClass": "HollowRainbows",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch PascalsTriangle",
             "request": "launch",
             "mainClass": "PascalsTriangle",
