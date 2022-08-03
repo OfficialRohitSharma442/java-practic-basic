@@ -9,12 +9,19 @@ public class Function {
     public static void  PrintmyName(String name){
         System.out.println(name);
     }
+    /*calculate fectorial function*/
+    public static void TwoCalculateFectorial(int n){
+        int N =n;
+        N=(N*(N-1))/2;
+        System.out.print(N);
+    }
     public static void main(String args[]){
     //   PrintmyName(" Hello Rohit");
     Scanner input =new Scanner(System.in);
     int a = input.nextInt();
-    int b =input.nextInt();
-      System.out.println(SumOfTwo(a, b )) ;
+    // int b =input.nextInt();
+    //   System.out.println(SumOfTwo(a, b ));
+    TwoCalculateFectorial(a);
     }
 }
 /*
