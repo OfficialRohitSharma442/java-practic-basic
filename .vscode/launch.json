@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BeautifulYear",
+            "request": "launch",
+            "mainClass": "java_problams.BeautifulYear",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch BigLight",
             "request": "launch",
             "mainClass": "java_problams.BigLight",
