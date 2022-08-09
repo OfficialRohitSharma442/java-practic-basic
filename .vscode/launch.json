@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SimpleP",
+            "request": "launch",
+            "mainClass": "SimpleP",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeautifulYear",
+            "request": "launch",
+            "mainClass": "BeautifulYear",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch BeautifulYear",
             "request": "launch",
             "mainClass": "java_problams.BeautifulYear",
