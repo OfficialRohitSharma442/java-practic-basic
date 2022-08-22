@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Selectionshort",
+            "request": "launch",
+            "mainClass": "Selectionshort",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch Binarypattern",
             "request": "launch",
             "mainClass": "Binarypattern",
