@@ -3,7 +3,7 @@ public class PrintEvenString {
         String str = "hell world";
         for(String s:str.split(" ")){
             if(s.length()%2==0){
-                System.out.println(s);
+                System.out.println(s); 
             }
         }
     }
