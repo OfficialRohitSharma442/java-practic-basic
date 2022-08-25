@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseWordsInString",
+            "request": "launch",
+            "mainClass": "ReverseWordsInString",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddtwoString",
+            "request": "launch",
+            "mainClass": "AddtwoString",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintEvenString",
+            "request": "launch",
+            "mainClass": "PrintEvenString",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "Anagram",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagram_String",
+            "request": "launch",
+            "mainClass": "Anagram_String",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch fib",
+            "request": "launch",
+            "mainClass": "fib",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch Selectionshort",
             "request": "launch",
             "mainClass": "Selectionshort",
