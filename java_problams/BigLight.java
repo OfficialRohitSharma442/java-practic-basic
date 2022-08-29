@@ -7,6 +7,7 @@ public class BigLight {
 	int h2 = input.nextInt();
 	int v1 = input.nextInt();
 	int v2  = input.nextInt();
+	input.close();
 	boolean result = false;
     for(long i=h1, j = h2; i<=10000; i =i+v1,j=j+v2 ){
 		// for; j<=10000; j=j+v2 ){

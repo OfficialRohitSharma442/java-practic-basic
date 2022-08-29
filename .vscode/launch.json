@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringsCompress",
+            "request": "launch",
+            "mainClass": "StringsCompress",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompairTwoStringDiffrentMethod",
+            "request": "launch",
+            "mainClass": "CompairTwoStringDiffrentMethod",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompairTwoStringWithoutBuitInFunction",
+            "request": "launch",
+            "mainClass": "CompairTwoStringWithoutBuitInFunction",
+            "projectName": "java practic_d637ea00"
+        },
+        {
+            "type": "java",
             "name": "Launch CountWordInString",
             "request": "launch",
             "mainClass": "CountWordInString",

@@ -19,6 +19,7 @@ public class Function {
     //   PrintmyName(" Hello Rohit");
     Scanner input =new Scanner(System.in);
     int a = input.nextInt();
+    input.close();
     // int b =input.nextInt();
     //   System.out.println(SumOfTwo(a, b ));
     TwoCalculateFectorial(a);
