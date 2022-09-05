@@ -8,7 +8,10 @@ public class InsertationSort {
             while(j>=0&&current<arr[j]){
                 arr[j+1]=arr[j];
                 j--;
+                System.out.println(j);
+                
             }
+           
             /* placement  */
             arr[j+1]=current;
         }
