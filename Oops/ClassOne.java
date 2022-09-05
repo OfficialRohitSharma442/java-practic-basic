@@ -2,11 +2,7 @@ package Oops;
 
 public class ClassOne {
     public static void main(String[] args) {
-        pen pen1 = new pen();
-        pen1.color="red";
-        pen1.type ="ball";
-        System.out.println("color ="+pen1.color +"\n"+"pen type = "+pen1.type);
-        pen1.write();
+       
     }
 }
 class pen{
@@ -14,5 +10,16 @@ class pen{
     String type;
     public void write(){
         System.out.println("writing somthing");
+    }
+    public void color(){
+        System.out.println(this.color);
+    }
+}
+class Student{
+    String name;
+    int age;
+    public void printInfo(){
+        System.out.println(this.name);
+        System.out.println(this.age);
     }
 }
