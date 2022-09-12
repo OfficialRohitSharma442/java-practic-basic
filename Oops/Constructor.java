@@ -14,6 +14,9 @@ class TestParpuse{
         this.name = name;
         this.age = age;
     }
+    void printInfo(){
+        System.out.println("Name is => "+name+"  "+"age is => "+age );
+    }
     
 
 }
