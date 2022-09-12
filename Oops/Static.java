@@ -22,3 +22,9 @@ class Player{
       // System.out.println(id+ ":"+name);
     }
   }
+  /*
+ In the Java programming language, the keyword static means that 
+  the particular member belongs to a type itself, rather than to an instance
+    of that type. This means we'll create only one instance of that static member that
+     is shared across all instances of the class.
+  */
