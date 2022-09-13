@@ -2,7 +2,8 @@ package Oops;
 
 public class Constructor {
     public static void main(String[] args) {
-        
+        TestParpuse t1 = new TestParpuse("amit", 10);
+        t1.printInfo();
     }
     
 }
