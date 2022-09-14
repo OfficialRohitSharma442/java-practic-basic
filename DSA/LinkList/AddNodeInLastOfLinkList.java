@@ -17,11 +17,10 @@ public static void main(String[] args) {
     Node a3 = new Node(12);
     temp.next = a3;
     Node temp2 = head;
-    while(temp2.next!=null){
-      
-        System.out.println(temp2.data);
-        temp2 = temp2.next;
-    }
+  for(int i=0; i<3; i++){
+    System.out.println(temp2.data);
+    temp2= temp2.next;
+  }
 
    
 }    
