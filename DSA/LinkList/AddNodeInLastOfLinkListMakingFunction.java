@@ -84,8 +84,8 @@ public class AddNodeInLastOfLinkListMakingFunction {
     new_node.next = head;
     head = new_node;
  return head;
-
-}
+ 
+ }
 }
 /*
  * this code is used template of node
