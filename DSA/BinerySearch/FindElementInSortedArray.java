@@ -14,6 +14,11 @@ System.out.println(binerySearch(arr,target));
         int mid;
         while(start<=end){
             mid = (start+end)/2;
+            /*
+            When our mid has large value then we use link this 
+
+          ===>   mid = start+(end-start)/2;
+            */
             if(arr[mid]==target){
                 return mid;
             }else if(arr[mid]>target){
