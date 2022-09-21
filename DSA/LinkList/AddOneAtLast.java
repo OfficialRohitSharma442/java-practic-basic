@@ -5,7 +5,9 @@ public class AddOneAtLast {
     public static void main(String[] args) {
    Scanner input = new Scanner(System.in);
    int n = input.nextInt();
+   /*this line repersent head is null in initial stage*/
    Node head = null;
+   /*copy head value in ptr nameed node type variable*/
    Node ptr = head;
    while(n>0){
      int rem = n%10;
@@ -47,6 +49,7 @@ public class AddOneAtLast {
    }
    
   }
+  /*this function help us to reverse the linklist */
   public static Node reverse(Node head){
     Node prev = null;
     Node curr = head;
@@ -60,6 +63,7 @@ public class AddOneAtLast {
     
   }
 }
+/*this is Linklist Node class*/
 class Node{
   int val;
   Node next;
