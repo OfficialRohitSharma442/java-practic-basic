@@ -21,6 +21,6 @@ public class FloorOfAnumber {
             } 
         }
         // return Math.max(arr[start],arr[end]); 
-        return arr[end];
+        return -1;
     }
 }
