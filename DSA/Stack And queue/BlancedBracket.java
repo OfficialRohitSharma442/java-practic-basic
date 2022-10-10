@@ -7,6 +7,7 @@ public class BlancedBracket {
       int n = input.nextInt();
       String s = input.next(); 
     Stack<Character> str = new Stack<>();
+    
     boolean flag = false;
     for(int i=0; i<n; i++){
       if(s.charAt(i)=='['||s.charAt(i)=='{'||s.charAt(i)=='('){ //in this condion we chek all are opening breacket
