@@ -16,7 +16,12 @@ public class LinkListMainClass {
         ll.insertLastindex(11);
         ll.insertLastindex(12);
         ll.insrtAtSpecific(77,5);
-       System.out.println( ll.deleteatFirstPosition());
+    //    System.out.println( ll.deleteatFirstPosition());
+        //  ll.deleteLastIndex();
+        System.out.println(ll.deleteSpecificIndex(2));
+        // System.out.println(ll.deleteLast());
+
+
         ll.PrintLinkList();        
     }
 }

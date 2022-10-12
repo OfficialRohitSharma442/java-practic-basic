@@ -11,7 +11,7 @@ public class SinglyLinkList {
         Node newNode = new Node(data);
         newNode.next = head;
         head = newNode;
-        if(tail==null){ //if taill is null it means one node on linklist
+        if(tail==null){ //if tail is null it means one node on linklist
             tail = head;
         }
         size++;
@@ -25,6 +25,49 @@ public class SinglyLinkList {
         size--;
         return val;
     }
+    // public void  deleteLastIndex(){
+    //  if(head==null){
+    //     tail=null;
+    //  }
+    //  Node temp = head;
+    //  while(temp.next.next!=null){
+    //     temp = temp.next;
+    //  }
+    //  temp.next = null;
+    // }
+    //this function for delete node from specific position
+    public int deleteSpecificIndex(int index){
+    if(index==0){
+        return deleteatFirstPosition();
+    }
+    if(index==size-1){
+        return deleteLast();
+    }
+    Node prev = get(index-1);
+    int val = prev.next.data;
+    prev.next = prev.next.next;
+    return val;
+
+    }
+    public int deleteLast(){
+        if(size<=1){
+            return deleteatFirstPosition();
+        }
+        Node secoundLast = get(size-1);
+        int data = tail.data;
+        tail = secoundLast;
+        tail.next = null;
+        return data;
+    }
+    //this function return node of given index    
+    public Node get(int index){
+        Node node = head;
+        for(int i=0; i<index; i++){
+            node = node.next;
+        }
+        return node;
+    }
+    //this function insert data on specific position 
     public void insrtAtSpecific(int data,int index){
         if(index==0){
             insertFirst(data);
@@ -52,6 +95,18 @@ public class SinglyLinkList {
         tail.next = newOne;
         tail = newOne;
         size++;
+    }
+    /* find node that have value that we given  */
+    public Node findnode(int value){
+        Node temp = head;
+        while(temp!=null){
+            if(temp.data==value){
+                return temp;
+            }
+            temp = temp.next;
+
+        }
+       return null;
     }
     public void PrintLinkList(){
         Node temp = head;
