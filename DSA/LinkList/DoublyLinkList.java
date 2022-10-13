@@ -10,6 +10,8 @@ public class DoublyLinkList {
         dll.insertFirst(1);
         dll.insertLast(6);
         dll.PrintLinkList();
+        dll.insertAtSpecificPosition(2,14);
+        dll.PrintLinkList();
         // dll.PrintInReverse();
     }
     Node head;
@@ -37,6 +39,22 @@ public class DoublyLinkList {
        n.prev = temp;
 
        return;
+    }
+    public void insertAtSpecificPosition(int index ,int data){
+      if(index==0){
+        insertFirst(data);
+        return;
+      }
+      Node n = new Node(data);
+      Node temp = head;
+      for(int i=0; i<index-1; i++){
+       temp = temp.next;
+      }
+n.next = temp.next;
+temp.next.prev = n;
+n.prev = temp;
+temp.next = n;
+return;
     }
     public void PrintLinkList(){
         Node temp = head;
