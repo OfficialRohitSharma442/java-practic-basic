@@ -47,9 +47,11 @@ public class DoublyLinkList {
       }
       Node n = new Node(data);
       Node temp = head;
+      //go to one position back in linklist
       for(int i=0; i<index-1; i++){
        temp = temp.next;
       }
+      //insert node between temp and temp.next
 n.next = temp.next;
 temp.next.prev = n;
 n.prev = temp;
