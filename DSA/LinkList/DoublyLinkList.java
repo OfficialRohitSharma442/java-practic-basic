@@ -53,6 +53,7 @@ public class DoublyLinkList {
       }
       //insert node between temp and temp.next
 n.next = temp.next;
+if(temp.next!=null)
 temp.next.prev = n;
 n.prev = temp;
 temp.next = n;
