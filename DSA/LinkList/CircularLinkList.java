@@ -9,7 +9,7 @@ public class CircularLinkList {
         cl.insertfirst(4);
         cl.insertfirst(5);
         cl.insertfirst(6);
-        cl.DeleteNode(6);
+        cl.DeleteNode(1);
         cl.printCirculerLinkList();
 
     }
